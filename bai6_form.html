@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai6_form</title>
+    <style>
+        body {
+            background-color: #33ff33;
+        }
+        .container {
+            position: relative;
+            top: auto;
+            bottom: auto;
+            right: auto;
+            left: auto;
+            width: 250px;
+            background-color: white;
+            padding: 40px;
+            margin: auto;
+        }
+        .form {
+           height: 40px; 
+           margin-bottom: 20px;
+        }
+        .item {
+            height: 100%;
+            width: 100%;
+        }
+        .username, .password {
+            border: none;
+            background-color: #e8e8e8;
+            border-radius: 2px;
+        }
+        .login {
+            background-color: #00ff00;
+            border: none;
+            color: white;
+        }
+
+        .text p {
+            margin: 0;
+            text-align: center;
+            color: #e8e8e8;
+        }
+        .text p span {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="text" placeholder="username" class="item username">
+        </div>
+        <div class="form">
+            <input type="text" class="item password" placeholder="password">
+        </div>
+        <div class="form">
+            <button class="item login">LOGIN</button>
+        </div>
+        <div class="text">
+            <p>Not registered?<span>Creat an account</span></p>
+        </div>
+        
+    </div>
+</body>
+</html>
